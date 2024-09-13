@@ -1,0 +1,170 @@
+/* General Reset and Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #f4f4f4;
+    background-color: #121212;
+}
+
+/* Header Styling */
+header {
+    background-color: #1e1e1e;
+    padding: 20px 0;
+    color: #f4f4f4;
+    border-bottom: 1px solid #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 16px;
+}
+
+.nav-menu a:hover {
+    color: #ff9800;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-form input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.search-form button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #ff9800;
+    color: #121212;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #e68900;
+}
+
+.cta-button {
+    text-decoration: none;
+    background-color: #ff9800;
+    color: #121212;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #e68900;
+}
+
+
+/* General Reset and Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #f4f4f4;
+    background-color: #121212;
+}
+
+/* Hero Section Styling */
+.hero {
+    position: relative;
+    background: url('bg.jpg') no-repeat center center/cover;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay for better text readability */
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin: 10px 0 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta-primary, .cta-secondary {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #121212;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-primary {
+    background-color: #ff9800;
+}
+
+.cta-primary:hover {
+    background-color: #e68900;
+}
+
+.cta-secondary {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.cta-secondary:hover {
+    background-color: #444;
+}
